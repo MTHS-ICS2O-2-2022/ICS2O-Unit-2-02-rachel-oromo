@@ -4,8 +4,8 @@
 */
 
 .mdl-layout__header-row {
-  align-items: center;
   justify-content: center;
+  padding: 0;
 }
 
 .mdl-layout__content {
@@ -14,16 +14,34 @@
   padding-top: 15pt;
 }
 
-/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
-*/
-.mdl-ripple {
-  background: #bebebe;
-  opacity: 0.001;
+.mdl-textfield__error {
+  color: rgb(0, 0, 0);
 }
 
-p {
-  color: plum;
+.page-content {
+  color: rgb(141, 80, 255);
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
-  padding-top: 5pt;
+  font-size: 1.25rem;
+}
+
+.page-content-answer {
+  color: rgb(0, 131, 131);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+.right-image {
+  height: auto;
+  width: 480px;
+  float: right;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  float: right;
+  width: 300px;
+  height: auto;
 }
